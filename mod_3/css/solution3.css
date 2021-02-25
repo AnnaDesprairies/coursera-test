@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    color: #dad6f5;
+    background-color: #125161;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  
+  /** HEADER **/
+  
+  #header-nav {
+    background-color: #1d173f;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand h1 { /* Food LLC */
+    color:#dad6f5 ;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow:;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #dad6f5;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  /* END HEADER */
+
+  /**HOMEPAGE**/
+  h1 {
+      color:#aca0f8 ;
+      font-weight: bolder;
+      text-transform: uppercase;
+  }
+
+  .container {
+    border: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    }
+  .dishes {
+    color: #1d173f;
+    border: 1px solid #1d173f;
+    background-color:#aca0f8 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+  }
+  h3 {
+      font-size: 175%;
+      font-weight: bolder;
+  }
+
+  .text {
+      font-size: 95%;
+  }
+  /**END HOMEPAGE**/
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) {
+    /* Header */
+  
+    /* End Header */
+
+     /**HOMEPAGE**/
+  
+  /**END HOMEPAGE**/
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+     /* Header */
+  
+    /* End Header */
+
+     /**HOMEPAGE**/
+  
+  /**END HOMEPAGE**/
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Food LLC */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+   
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    /* End Header */
+
+     /**HOMEPAGE**/
+  
+  /**END HOMEPAGE**/
+  
+  }
+  
